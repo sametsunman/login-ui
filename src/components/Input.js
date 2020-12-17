@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, TextInput } from 'react-native'
+import { StyleSheet,View, TextInput } from 'react-native'
 
 function Input({placeholder}) {
     return (
@@ -11,9 +11,10 @@ function Input({placeholder}) {
 
 const styles = StyleSheet.create({
     container: {
-        padding: 10,
+        paddingHorizontal: 5,
         margin : 10,
-        borderRadius: 5
+        borderRadius: 5,
+        borderWidth: 1
     }
 })
 

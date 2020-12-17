@@ -1,10 +1,10 @@
 import React from 'react'
-import { View, Button } from 'react-native'
+import { StyleSheet, View, Button as Btn } from 'react-native'
 
-function Input({title}) {
+function Button({title}) {
     return (
         <View style={styles.container}>
-            <Button title={title} />
+            <Btn title={title} />
         </View>
     )
 }
@@ -12,7 +12,7 @@ function Input({title}) {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: '#60b0f4',
-        padding: 10,
+        padding: 5,
         margin : 10,
         borderRadius: 5
     }

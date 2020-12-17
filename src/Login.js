@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, View,Image, Dimensions} from 'react-native';
+import {SafeAreaView, View,Image, StyleSheet, Dimensions} from 'react-native';
 import {Input, Button} from './components'
 
 // You can test your code with "npm test" (or "yarn test" if you using yarn)
@@ -28,12 +28,15 @@ function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColour: 'white'
+    backgroundColor: 'white'
   },
   image: {
-    marginVertical: 20,
-    width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height*0.3
+    alignItems: 'center',
+    alignSelf: 'center',
+    marginTop: 100,
+    marginBottom: 25,
+    width: Dimensions.get('window').width*0.5,
+    height: Dimensions.get('window').width*0.25
   }
 
 })
