@@ -5,5 +5,5 @@ Oturum açma sayfa tasarımı
 ### Ekran Görüntüsü
 
 <div align="center">
-  <img width="600" src="/screenshot.png">
+  <img width="400" src="/screenshot.png">
 </div>
